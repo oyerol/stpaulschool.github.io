@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>St Paul High School</title>
+  <!-- <link rel="stylesheet" href="css/aos.css"> -->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+     .carousel-inner .carousel-item {
+      width: 100%;
+      height: 100vh;
+      background-size: contain;
+      background-position: top;
+      background-repeat: no-repeat;
+      object-fit: cover;
+    }
+
+    .carousel-inner .carousel-item>img {
+      -webkit-animation: thing 10s;
+      -o-animation: thing 0s;
+      animation: thing 10s;
+    }
+
+    @keyframes thing {
+      from {
+        transform: scale(1, 1);
+      }
+
+      to {
+        transform: scale(1.5, 1.5);
+      }
+    }
+
+    .carousel-inner .carousel-item::before {
+      content: '';
+      background-color: rgba(12, 11, 10, 0.5);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .carousel-inner .carousel-caption span {
+      color: orange;
+
+    }
+
+    .carousel-inner .carousel-caption {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 0;
+      top: 40%;
+      right: 0;
+      left: 0;
+      color: #000;
+    }
+
+    .button {
+      width: 100px;
+      height: 40px;
+      background-color: blue;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .button:hover {
+      background-color: white;
+    }
+
+    .button1 {
+      /* width: 100px; */
+      /* height: 40px; */
+      background-color: blue;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .button1:hover {
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand text-primary" href="home.html"><img src="images/School Badge Template23-01.png" alt="logo" style="width: 80px; height: 80px; object-fit: contain;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="curriculum.html">Academics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="student.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="admission.html">Admissions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <!-- Hero Section -->
+   <header class="hero text-white text-center" style="background-image: linear-gradient(rgba(53, 59, 82, 0.5),rgba(4,9,30,0.5)),url('images/f2.jpg'); height: 50vh; background-size: cover; background-position: center;padding-top: 4rem;">
+    <div class="container pt-5">
+      <h1>Welcome to St PaulSchool</h1>
+      <p class="text-white" style="font-size: 25px;"><strong>A Place to Learn, Grow, and Succeed</strong></p>
+      <a class="btn btn-primary" href="admission.html">Join us Today</a>
+    </div>
+  </header>
+
+  <!-- body starts -->
+
+  <section class="section pt-5 pb-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-2 order-md-1">
+          <h3 class="text-primary">Our Director</h3>
+          <p>Welcome to St Paul High School! We are dedicated to
+            providing high-quality education and learning opportunities. Our mission is to empower
+            individuals with knowledge and skills that will help them succeed in their personal and
+            professional lives. Through our innovative teaching methods and experienced faculty, we
+            strive to create a nurturing and inspiring learning environment for our students.</p>
+          <p>At St Paul High School, we believe that education is the key to unlocking one's
+            full potential. Our comprehensive curriculum covers a wide range of subjects and disciplines, ensuring that
+            our students receive a well-rounded education. With our state-of-the-art facilities and resources,
+            we aim to foster creativity, critical thinking, and a lifelong love for learning.</p>
+        </div>
+        <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+          <img class="img-fluid w-100" src="images/mr-kafumbe-davis.jpg" alt="about image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="site-section" id="teachers-section">
+    <div class="container">
+
+      <div class="row mb-5 justify-content-center">
+        <div class="col-lg-7 mb-5 text-center" data-aos="fade-up" data-aos-delay="">
+          <h2 class="text-primary">Our Teachers</h2>
+          <p class="mb-5">We are thrilled to introduce our dedicated and passionate team of educators who play a pivotal
+            role in shaping the academic and personal growth of your children. Our staff members bring a wealth of
+            experience, expertise, and enthusiasm to create a positive and engaging learning environment.</p>
+
+          <p>At St Paul, we prioritize not only academic excellence but also the holistic development of each
+            student. Our committed staff is committed to fostering a supportive and nurturing atmosphere where every
+            child feels valued, empowered, and inspired to reach their full potential.</p>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="teacher text-center">
+            <img src="images/Obbo-Allan-Warayamo.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+            <div class="py-2">
+              <h3 class="text-black">Tayebwa RObert</h3>
+              <p class="position">Head Teacher</p>
+              <p>
+                Welcome! As the proud Head Teacher of our incredible school, I'm excited to embark on another year
+                of learning, growth, and success. Our dedicated staff is committed to providing a nurturing and
+                stimulating environment for every student. Together, let's make this academic year a journey of
+                discovery and achievement.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="teacher text-center">
+            <img src="images/Mr. Kansiime Boneventure.webp" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+            <div class="py-2">
+              <h3 class="text-black">Muhanguzi Constance</h3>
+              <p class="position">Deputy Head Teacher</p>
+              <p>Greetings! As Deputy Head Teacher, I am honored to support the academic and personal development of our
+                students. This year promises to be filled with exciting opportunities for learning and collaboration. I
+                look forward to working alongside our dedicated staff, students, and parents to make this academic
+                journey memorable and enriching.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="teacher text-center">
+            <img src="images/CJ1C6582.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+            <div class="py-2">
+              <h3 class="text-black">Aguma Arnold</h3>
+              <p class="position">Director of Studies</p>
+              <p>Welcome to a new academic year! As the Director of Studies, I am thrilled to guide our students on a
+                path of academic excellence. Our committed faculty and I are here to foster a dynamic and enriching
+                learning environment. Let's embrace the opportunities ahead and make this year a rewarding educational
+                experience for all.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- body ends -->
+<!-- footer -->
+  <footer class="footer-section bg-dark text-light pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <p><strong>Contacts</strong></p>
+          <p>You can contact the School Administration through the following contacts:</p>
+          <p>+256 788504902</p>
+          <p>+256 706899971</p>
+        </div>
+
+        <div class="col-md-3 ml-auto">
+          <p><strong>Links</strong></p>
+          <ul class="list-unstyled footer-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="curriculum.html">Curriculum</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <p><strong>Subscribe</strong></p>
+          <p>
+            You can subscribe to our website to get updates happening within our school community and outside as well.
+          </p>
+          <form action="#" class="footer-subscribe">
+            <div class="d-flex mb-5">
+              <input type="text" class="form-control rounded-0" placeholder="Email">
+              <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>&copy; 2023 St Paul All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
